@@ -11,22 +11,6 @@ author: JohnsonQ
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
-nav:
-  enable: false
-  travelling: false
-  clock: true
-  menu:
-    - title: 网页
-      item:
-        - name: 博客
-          link: https://cherryred.xyz/
-          icon: https://cdn.jsdelivr.net/gh/selfhst/icons/png/github-light.png
-    - title: 项目
-      item:
-        - name: 图床
-          link: https://imagebed.cherryred.asia/
-          icon: https://cdn.jsdelivr.net/gh/selfhst/icons/png/immich.png
-
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://schrodingerfish.github.io
@@ -118,3 +102,7 @@ theme: anzhiyu
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+aplayer:
+  meting: true
+  asset_inject: false
