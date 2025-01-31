@@ -7,7 +7,7 @@
     <list default="true" id="3d49875d-fdb4-493c-be6c-35b6ecec3ff8" name="更改" comment="init">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.anzhiyu.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.anzhiyu.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/categories/Web/web.md" beforeDir="false" afterPath="$PROJECT_DIR$/categories/Web/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/anzhiyu/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/anzhiyu/_config.yml.bak" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1738309082332</updated>
-      <workItem from="1738309083780" duration="4613000" />
+      <workItem from="1738309083780" duration="5221000" />
     </task>
     <task id="LOCAL-00001" summary="delete">
       <option name="closed" value="true" />
@@ -150,7 +150,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738313448482</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="init">
+      <option name="closed" value="true" />
+      <created>1738313825600</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1738313825601</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
