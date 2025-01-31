@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: SchrodingerFish
+title: SchrodingerFish's Blog
 subtitle: ''
 description: ''
 keywords:
-author: JohnsonQ
+author: Johnson
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
@@ -96,13 +96,9 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: anzhiyu
+theme: fluid
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
-
-aplayer:
-  meting: true
-  asset_inject: false
