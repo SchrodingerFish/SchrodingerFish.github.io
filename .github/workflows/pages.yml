@@ -18,10 +18,17 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "22"
+      - name: Cache NPM dependencies
+        uses: actions/cache@v4
+        with:
+          path: node_modules
+          key: ${{ runner.OS }}-npm-cache
+          restore-keys: |
+            ${{ runner.OS }}-npm-cache
       - name: Clear ./public directory
         run: |
-          rm -rf ./public/*
-          echo "Cleared ./public directory."
+            rm -rf ./public/*
+            echo "Cleared ./public directory."
       - name: Install Dependencies
         run: npm install hexo-renderer-pug hexo-renderer-stylus --save && npm install
       - name: Build
