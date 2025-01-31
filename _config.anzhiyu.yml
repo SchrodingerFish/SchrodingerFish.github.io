@@ -1,4 +1,68 @@
+home_top:
+  enable: true # 开关
+  timemode: date #date/updated
+  title: 生活明朗
+  subTitle: 万物可爱。
+  siteText: schrodingerfish.github.io
+  category:
+    - name: Web
+      path: /categories/Web/
+      shadow: var(--anzhiyu-shadow-blue)
+      class: blue
+      icon: anzhiyu-icon-dove
+    - name: Java
+      path: /categories/Java/
+      shadow: var(--anzhiyu-shadow-red)
+      class: red
+      icon: anzhiyu-icon-fire
+    - name: Python
+      path: /categories/Python/
+      shadow: var(--anzhiyu-shadow-green)
+      class: green
+      icon: anzhiyu-icon-book
+  default_descr: 再怎么看我也不知道怎么描述它的啦！
+  swiper:
+    enable: false
+    swiper_css: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.css #swiper css依赖
+    swiper_js: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.js #swiper js依赖
+  banner:
+    tips: 新品主题
+    title: Theme-AnZhiYu
+    image: https://bu.dusays.com/2023/05/13/645fa3cf90d70.webp
+    link: https://docs.anheyu.com/
+
+footer:
+  owner:
+    enable: true
+    since: 2020
+  custom_text:
+  runtime:
+    enable: true
+    launch_time: 04/01/2021 00:00:00 # 网站上线时间
+    work_img: https://npm.elemecdn.com/anzhiyu-blog@2.0.4/img/badge/安知鱼-上班摸鱼中.svg
+    work_description: 距离月入25k也就还差一个大佬带我~
+    offduty_img: https://npm.elemecdn.com/anzhiyu-blog@2.0.4/img/badge/安知鱼-下班啦.svg
+    offduty_description: 下班了就该开开心心的玩耍，嘿嘿~
+  # 徽标部分配置项 https://shields.io/
+  # https://img.shields.io/badge/CDN-jsDelivr-orange?style=flat&logo=jsDelivr
+  bdageitem:
+    - link: https://hexo.io/ #徽标指向网站链接
+      shields: https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Frame-Hexo.svg #徽标API
+      message: 博客框架为Hexo_v5.4.0 #徽标提示语
+    - link: https://blog.anheyu.com/
+      shields: https://pan.anheyu.com/d/anzhiyu/svg/Theme-AnZhiYu-2E67D3.svg
+      message: 本站使用AnZhiYu主题
+    - link: https://www.dogecloud.com/
+      shields: https://npm.elemecdn.com/anzhiyu-blog@2.2.0/img/badge/CDN-多吉云-3693F3.svg
+      message: 本站使用多吉云为静态资源提供CDN加速
+    - link: https://github.com/
+      shields: https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Source-Github.svg
+      message: 本站项目由Github托管
+    - link: http://creativecommons.org/licenses/by-nc-sa/4.0/
+      shields: https://npm.elemecdn.com/anzhiyu-blog@2.2.0/img/badge/Copyright-BY-NC-SA.svg
+      message: 本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可
+
 error_404:
   enable: true
   subtitle: "页面没有找到"
-  background:
+  background: https://bu.dusays.com/2023/05/08/645907596997d.gif
