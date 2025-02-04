@@ -4,6 +4,7 @@ date: 2023-04-01 12:00:00
 categories:
   - Web
 ---
+## 按照以下步骤启用 Samba
 
 0. `sudo apt install samba`
 
