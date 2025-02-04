@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d49875d-fdb4-493c-be6c-35b6ecec3ff8" name="更改" comment="modify categories">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/Web/Ubuntu启用sumba.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Web/Ubuntu启用sumba.md" afterDir="false" />
+    <list default="true" id="3d49875d-fdb4-493c-be6c-35b6ecec3ff8" name="更改" comment="modify tags page">
+      <change beforePath="$PROJECT_DIR$/_config.fluid.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.fluid.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -300,7 +299,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738654975492</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="modify tags page">
+      <option name="closed" value="true" />
+      <created>1738655300964</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1738655300964</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,7 +331,8 @@
     <MESSAGE value="modify config.yml" />
     <MESSAGE value="init" />
     <MESSAGE value="modify categories" />
-    <option name="LAST_COMMIT_MESSAGE" value="modify categories" />
+    <MESSAGE value="modify tags page" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify tags page" />
     <option name="NON_MODAL_COMMIT_POSTPONE_SLOW_CHECKS" value="false" />
   </component>
 </project>
