@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d49875d-fdb4-493c-be6c-35b6ecec3ff8" name="更改" comment="init">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/categories/Web/Ubuntu启用sumba.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/categories/Web/Ubuntu启用sumba.md" afterDir="false" />
+    <list default="true" id="3d49875d-fdb4-493c-be6c-35b6ecec3ff8" name="更改" comment="modify categories">
+      <change beforePath="$PROJECT_DIR$/source/categories/Web/Ubuntu启用sumba.md" beforeDir="false" afterPath="$PROJECT_DIR$/categories/Web/Ubuntu启用sumba.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +57,7 @@
       <recent name="G:\Projects\WebStorm\SchrodingerFish.github.io\themes\fluid\source\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Projects\WebStorm\SchrodingerFish.github.io\categories" />
       <recent name="G:\Projects\WebStorm\SchrodingerFish.github.io\source\categories\Web" />
       <recent name="G:\Projects\WebStorm\SchrodingerFish.github.io\source" />
     </key>
@@ -274,7 +274,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738653830329</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="modify categories">
+      <option name="closed" value="true" />
+      <created>1738654068886</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1738654068886</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,7 +305,8 @@
     <MESSAGE value="delete" />
     <MESSAGE value="modify config.yml" />
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="modify categories" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify categories" />
     <option name="NON_MODAL_COMMIT_POSTPONE_SLOW_CHECKS" value="false" />
   </component>
 </project>
