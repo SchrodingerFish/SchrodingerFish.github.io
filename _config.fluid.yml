@@ -967,7 +967,7 @@ about:
   banner_mask_alpha: 0.3
   avatar: /img/avatar.png
   name: "SchrodingerFish"
-  intro: "衣带渐宽终不悔，为伊消得人憔悴。"
+  intro: "能被替代的，从来都是那些能被标准化的工作。"
   # 更多图标可从 https://hexo.fluid-dev.com/docs/icon/ 查找，`class` 代表图标的 css class，添加 `qrcode` 后，图标不再是链接而是悬浮二维码
   # More icons can be found from https://hexo.fluid-dev.com/docs/en/icon/  `class` is the css class of the icon. If adding `qrcode`, the icon is no longer a link, but a hovering QR code
   icons:
