@@ -1,8 +1,11 @@
 ---
-title: Ubuntu启用sumba
+title: Ubuntu启用Samba
 date: 2023-04-01 12:00:00
 categories:
   - Web
+tags:
+  - Unbutu
+  - Samba
 ---
 ## 按照以下步骤启用 Samba
 
