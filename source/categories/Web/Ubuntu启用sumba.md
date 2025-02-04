@@ -9,14 +9,16 @@ tags:
 ---
 ## 按照以下步骤启用 Samba
 
-0. `sudo apt install samba`
+0. 运行命令:
+    ```bash 
+    sudo apt install samba
+   ```
 
 1. **确保用户账号正确配置**：
 
    - 确保 Samba 用户 `johnson` 已正确添加，并设置了 Samba 密码。
 
-     ```
-     <BASH>
+     ```bash
 
      sudo smbpasswd -a johnson
 
@@ -25,7 +27,7 @@ tags:
 
    - 确保 `[共享名称]` 小节中的配置正确无误。根据您的设置，应该类似这样：
 
-     ```
+     ```bash
      [我的云存储]
      comment = 我的云存储
      path = /mnt/ntfs
@@ -40,8 +42,7 @@ tags:
 
    - 确保 `/mnt/ntfs` 目录的权限允许 `johnson` 用户读取和写入。可以使用以下命令检查和设置权限：
 
-     ```
-     <BASH>
+     ```bash
 
      sudo chown -R johnson:johnson /mnt/ntfssudo chmod -R 0770 /mnt/ntfs
 
@@ -50,8 +51,7 @@ tags:
 
    - 每次更改配置后，别忘了重启 Samba 服务：
 
-     ```
-     <BASH>
+     ```bash
 
      sudo systemctl restart smbd
      sudo systemctl restart nmbd
