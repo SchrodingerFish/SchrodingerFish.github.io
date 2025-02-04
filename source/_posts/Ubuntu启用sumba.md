@@ -1,5 +1,5 @@
 ---
-title: Ubuntu 启用sumba
+title: Ubuntu启用sumba
 date: 2023-04-01 12:00:00
 categories:
   - Web
