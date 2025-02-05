@@ -344,36 +344,6 @@ ollama run nomic-embed-text
 
 ```
 
-JSON
-
-Copy
-
-### 代码补全效果
-
-- `Ctrl + I`: 根据指令生成代码片段。
-
-![https://cuterwrite-1302252842.file.myqcloud.com/img/codeqwen_1-2024-06-17.png](https://cuterwrite-1302252842.file.myqcloud.com/img/codeqwen_1-2024-06-17.png)
-
-![https://cuterwrite-1302252842.file.myqcloud.com/img/codeqwen_2-2024-06-17.png](https://cuterwrite-1302252842.file.myqcloud.com/img/codeqwen_2-2024-06-17.png)
-
-![https://cuterwrite-1302252842.file.myqcloud.com/img/codeqwen_3-2024-06-17.png](https://cuterwrite-1302252842.file.myqcloud.com/img/codeqwen_3-2024-06-17.png)
-
-- 光标悬停自动补全代码
-
-![https://cuterwrite-1302252842.file.myqcloud.com/img/codeqwen_4-2024-06-17.png](https://cuterwrite-1302252842.file.myqcloud.com/img/codeqwen_4-2024-06-17.png)
-
-### 与 Ollama 聊天
-
-![https://cuterwrite-1302252842.file.myqcloud.com/img/codeqwen_5-2024-06-17.png](https://cuterwrite-1302252842.file.myqcloud.com/img/codeqwen_5-2024-06-17.png)
-
-### 代码自动注释
-
-- 选中代码打开右键菜单
-
-![https://cuterwrite-1302252842.file.myqcloud.com/img/codeqwen_6-2024-06-17.png](https://cuterwrite-1302252842.file.myqcloud.com/img/codeqwen_6-2024-06-17.png)
-
-![https://cuterwrite-1302252842.file.myqcloud.com/img/codeqwen_7-2024-06-17.png](https://cuterwrite-1302252842.file.myqcloud.com/img/codeqwen_7-2024-06-17.png)
-
 ## 总结
 
 Ollama 为我们打开了通往开源 LLM 世界的大门，让每个人都能轻松体验 LLM 的强大功能，并可以根据自身需求进行定制化应用。无论是进行研究、开发，还是日常使用，Ollama 都能为你提供探索 LLM 无限可能的平台。相信随着 Ollama 的不断发展，它将为我们带来更多惊喜，推动 LLM 技术在各个领域的应用和发展。
