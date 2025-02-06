@@ -6,6 +6,7 @@ categories:
 tags:
   - Java
   - Optional
+excerpt: 本文将介绍 Java 8 中引入的 Optional 类，以及如何使用它来避免空指针异常。我们将从创建 Optional 实例开始，然后介绍如何访问和处理 Optional 对象的值。接下来，我们将学习如何转换和过滤 Optional 对象的值，以及如何使用 Optional 类的链式方法。最后，我们将介绍 Optional 类的一些高级用法，如 or()、ifPresentOrElse() 和 stream() 方法。
 ---
 从 Java 8 引入的一个很有趣的特性是 *Optional* 类。Optional 类主要解决的问题是臭名昭著的空指针异常（NullPointerException） —— 每个 Java 程序员都非常了解的异常。
 

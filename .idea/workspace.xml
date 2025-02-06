@@ -5,14 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d49875d-fdb4-493c-be6c-35b6ecec3ff8" name="更改" comment="add 理解和使用Java中的Optional">
+      <change afterPath="$PROJECT_DIR$/themes/fluid/source/js/jquery.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/_posts/AI/Ollama基础和进阶.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/AI/Ollama基础和进阶.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/Java/理解和使用Java中的Optional.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Java/理解和使用Java中的Optional.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/PostgreSQL/PostgreSQL有用的工具和特性.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/PostgreSQL/PostgreSQL有用的工具和特性.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/Web/Git常用操作.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Web/Git常用操作.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/Web/Ubuntu启用sumba.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Web/Ubuntu启用sumba.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/Web/内网穿透方案.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Web/内网穿透方案.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/fluid/layout/_partials/head.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/fluid/layout/_partials/head.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/fluid/layout/post.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/fluid/layout/post.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -86,7 +100,7 @@
       <workItem from="1738319418295" duration="2027000" />
       <workItem from="1738646842901" duration="27000" />
       <workItem from="1738646873094" duration="1739000" />
-      <workItem from="1738818134671" duration="966000" />
+      <workItem from="1738818134671" duration="2351000" />
     </task>
     <task id="LOCAL-00001" summary="delete">
       <option name="closed" value="true" />
@@ -424,7 +438,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738818440255</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="add 理解和使用Java中的Optional">
+      <option name="closed" value="true" />
+      <created>1738819125646</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1738819125646</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

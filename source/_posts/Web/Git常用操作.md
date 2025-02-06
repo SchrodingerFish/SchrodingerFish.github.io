@@ -5,6 +5,7 @@ categories:
   - Web
 tags:
   - Git
+excerpt: 本文将介绍 Git 的常用操作，包括 Git 配置、仓库操作、文件操作、分支操作、远程操作、日志查看、回退操作、标签操作、Stash（暂存功能）、配合 .gitignore 文件等。
 ---
 
 

@@ -6,6 +6,7 @@ categories:
 tags:
   - Unbutu
   - Samba
+excerpt: 本文将介绍如何在 Ubuntu 上启用 Samba 服务，以便在局域网内共享文件和目录。Samba 是一个开源的 SMB/CIFS 协议实现，可以让 Linux 和 Windows 之间实现文件和打印机共享。
 ---
 ## 按照以下步骤启用 Samba
 
