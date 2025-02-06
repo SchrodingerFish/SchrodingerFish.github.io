@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d49875d-fdb4-493c-be6c-35b6ecec3ff8" name="更改" comment="modify tags page">
-      <change afterPath="$PROJECT_DIR$/source/_posts/Java/理解和使用Java中的Optional.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3d49875d-fdb4-493c-be6c-35b6ecec3ff8" name="更改" comment="add 理解和使用Java中的Optional" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -405,7 +402,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738725321783</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="add 理解和使用Java中的Optional">
+      <option name="closed" value="true" />
+      <created>1738735084428</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1738735084428</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -432,7 +437,8 @@
     <MESSAGE value="add" />
     <MESSAGE value="add 内网穿透" />
     <MESSAGE value="modify tags page" />
-    <option name="LAST_COMMIT_MESSAGE" value="modify tags page" />
+    <MESSAGE value="add 理解和使用Java中的Optional" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 理解和使用Java中的Optional" />
     <option name="NON_MODAL_COMMIT_POSTPONE_SLOW_CHECKS" value="false" />
   </component>
 </project>
