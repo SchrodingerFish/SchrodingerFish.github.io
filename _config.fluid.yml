@@ -371,7 +371,21 @@ navbar:
     - { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" }
     - { key: "category", link: "/categories/", icon: "iconfont icon-category-fill" }
     - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
-    - { key: "welfare", link: "/welfare/", icon: "iconfont icon-slack-fill" }
+    #- { key: "welfare", link: "/welfare/", icon: "iconfont icon-slack-fill" }
+    - {
+      key: '公益',
+      icon: 'iconfont icon-slack-fill',
+      submenu: [
+        { key: '免费订阅(主)', link: 'https://stevenkiun.serv00.net' },
+        { key: '免费订阅(备)', link: 'https://lucasevans.serv00.net' },
+        { key: '订阅转化(主)', link: 'https://sub.fxxk.dedyn.io' },
+        { key: '订阅转化(备)', link: 'https://subconvert.joybox.us.kg' },
+        { key: 'Docker镜像站', link: 'https://hexo.fluid-dev.com/docs/icon/' }
+        { key: 'Huggingface镜像站', link: 'https://hexo.fluid-dev.com/docs/icon/' }
+        { key: 'Github文件加速站', link: 'https://hexo.fluid-dev.com/docs/icon/' }
+        { key: '友链', link: 'https://blog.cmliussss.com' }
+      ]
+    }
     - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
     #- { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
 

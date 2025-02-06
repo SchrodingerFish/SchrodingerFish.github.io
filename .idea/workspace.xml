@@ -7,15 +7,9 @@
     <list default="true" id="3d49875d-fdb4-493c-be6c-35b6ecec3ff8" name="更改" comment="add excerpt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.fluid.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.fluid.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/AI/Ollama基础和进阶.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/AI/Ollama基础和进阶.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/Java/理解和使用Java中的Optional.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Java/理解和使用Java中的Optional.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/PostgreSQL/PostgreSQL有用的工具和特性.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/PostgreSQL/PostgreSQL有用的工具和特性.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/Web/Git常用操作.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Web/Git常用操作.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/Web/Ubuntu启用sumba.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Web/Ubuntu启用sumba.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/Web/内网穿透方案.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Web/内网穿透方案.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/about/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/about/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/welfare/index.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/fluid/languages/en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/fluid/languages/en.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/fluid/languages/zh-CN.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/fluid/languages/zh-CN.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,12 +32,12 @@
     &quot;assignee&quot;: &quot;SchrodingerFish&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/SchrodingerFish/SchrodingerFish.github.io.git",
-    "accountId": "159d10d7-5a06-4d79-8747-87dc8f7e2ad6"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SchrodingerFish/SchrodingerFish.github.io.git&quot;,
+    &quot;accountId&quot;: &quot;159d10d7-5a06-4d79-8747-87dc8f7e2ad6&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -52,24 +46,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "com.codeium.enabled": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "G:/Projects/WebStorm/SchrodingerFish.github.io/themes/fluid/source/img",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.sync",
-    "ts.external.directory.path": "D:\\Program Files\\JetBrains\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/Projects/WebStorm/SchrodingerFish.github.io/themes/fluid/source/img&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\Program Files\\JetBrains\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\Projects\WebStorm\SchrodingerFish.github.io\themes\fluid\source\img" />
