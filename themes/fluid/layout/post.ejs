@@ -13,6 +13,68 @@ page.banner_mask_alpha = page.banner_mask_alpha || theme.post.banner_mask_alpha
     <div class="col-lg-8 nopadding-x-md">
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
+            <b>AI摘要</b>
+            <p id="ai-output">正在生成中……</p>
+            <script>
+              async function sha(str) {
+                const encoder = new TextEncoder();
+                const data = encoder.encode(str);
+                const hashBuffer = await crypto.subtle.digest("SHA-256", data);
+                const hashArray = Array.from(new Uint8Array(hashBuffer));
+                return hashArray.map((b) => b.toString(16).padStart(2, "0")).join("");
+              }
+
+              async function aiGen() {
+                const postContent =
+                  "文章标题：" +
+                  "<%= page.title %>" +
+                  "；文章内容：" +
+                  "<%= page.content %>".replace(/(<([^>]+)>)/gi, "").replace(/\n/g, "");
+                const postContentSign = await sha(postContent);
+                const outputContainer = document.getElementById("ai-output");
+
+                $.get(
+                  `https://ai-zhaiyao.joybox.us.kg/is_uploaded?id=<%= page.url %>&sign=${postContentSign}`,
+                  function (data) {
+                    if (data == "yes") {
+                      $.get(
+                        `https://ai-zhaiyao.joybox.us.kg/get_summary?id=<%= page.url %>&sign=${postContentSign}`,
+                        function (data2) {
+                          outputContainer.textContent = data2;
+                        }
+                      );
+                    } else {
+                      $.post(
+                        `https://ai-zhaiyao.joybox.us.kg/upload_blog?id=<%= page.url %>`,
+                        postContent,
+                        function () {
+                          const evSource = new EventSource(
+                            `https://ai-zhaiyao.joybox.us.kg/summary?id=<%= page.url %>`
+                          );
+                          outputContainer.textContent = "";
+                          evSource.onmessage = (event) => {
+                            if (event.data == "[DONE]") {
+                              evSource.close();
+                              return;
+                            } else {
+                              const data = JSON.parse(event.data);
+                              outputContainer.textContent += data.response;
+                            }
+                          };
+                          evSource.onerror = () => {
+                            outputContainer.textContent = "摘要生成失败，请稍后再试。";
+                            evSource.close();
+                          };
+                        }
+                      );
+                    }
+                  }
+                );
+              }
+
+              aiGen();
+            </script>
+
           <article class="post-content mx-auto">
             <h1 id="seo-header"><%= page.subtitle || page.title %></h1>
             <% if (theme.post.updated.enable && theme.post.updated && compare_date(page.date, page.updated)) { %>

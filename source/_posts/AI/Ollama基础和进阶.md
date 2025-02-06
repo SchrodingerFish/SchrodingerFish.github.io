@@ -8,49 +8,6 @@ tags:
   - AI
 ---
 
-<b>AI摘要</b>
-<p id="ai-output">正在生成中……</p>
-<script>
-  async function sha(str) {
-    const encoder = new TextEncoder();
-    const data = encoder.encode(str);
-    const hashBuffer = await crypto.subtle.digest("SHA-256", data);
-    const hashArray = Array.from(new Uint8Array(hashBuffer)); // convert buffer to byte array
-    const hashHex = hashArray
-      .map((b) => b.toString(16).padStart(2, "0"))
-      .join(""); // convert bytes to hex string
-    return hashHex;
-  }
-  async function ai_gen(){
-    var postContent = "文章标题：" + {{ page.title | jsonify }} + "；文章内容：" + {{ page.content | strip_html | strip_newlines | jsonify }};
-    var postContentSign = await sha(postContent);
-    var outputContainer = document.getElementById("ai-output");
-    $.get("https://ai-zhaiyao.joybox.us.kg/is_uploaded?id={{ page.url }}&sign=" + postContentSign, function (data) {
-      if (data == "yes") {
-        $.get("https://ai-zhaiyao.joybox.us.kg/get_summary?id={{ page.url }}&sign=" + postContentSign, function (data2) {
-          outputContainer.textContent = data2;
-        });
-      } else {
-        $.post("https://ai-zhaiyao.joybox.us.kg/upload_blog?id={{ page.url }}", postContent, function (data) {
-          $.get("https://ai-zhaiyao.joybox.us.kg/get_summary?id={{ page.url }}&sign=" + postContentSign);
-          const evSource = new EventSource("https://ai-zhaiyao.joybox.us.kg/summary?id={{ page.url }}");
-          outputContainer.textContent = "";
-          evSource.onmessage = (event) => {
-            if (event.data == "[DONE]") {
-              evSource.close();
-              return;
-            } else {
-              const data = JSON.parse(event.data);
-              outputContainer.textContent += data.response;
-            }
-          }
-        });
-      }
-    });
-  }
-  ai_gen();
-</script>
-
 近年来，大型语言模型（LLM）以其强大的文本生成和理解能力，成为了人工智能领域的中坚力量。商业 LLM 的价格通常高昂且代码封闭，限制了研究者和开发者的探索空间。幸运的是，开源社区提供了像 Ollama 这样优秀的替代方案，让每个人都能够轻松体验 LLM 的魅力，并能结合 HPC 和 IDE 插件，打造更强大的个人助手。
 
 ## 什么是 Ollama？
