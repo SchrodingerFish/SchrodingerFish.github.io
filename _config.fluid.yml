@@ -376,14 +376,14 @@ navbar:
       key: '公益',
       icon: 'iconfont icon-slack-fill',
       submenu: [
-        { key: '免费订阅(主)', link: 'https://stevenkiun.serv00.net',icon: "iconfont icon-clipboard-fill" },
-        { key: '免费订阅(备)', link: 'https://lucasevans.serv00.net',icon: "iconfont icon-clipboard-fill" },
+        { key: '免费订阅(主)', link: 'https://stevenkiun.serv00.net',icon: "iconfont icon-cliplist" },
+        { key: '免费订阅(备)', link: 'https://lucasevans.serv00.net',icon: "iconfont icon-cliplist" },
         { key: '订阅转化(主)', link: 'https://sub.fxxk.dedyn.io' ,icon: "iconfont icon-switch-fill"},
         { key: '订阅转化(备)', link: 'https://subconvert.joybox.us.kg',icon: "iconfont icon-switch-fill" },
-        { key: 'Docker镜像站', link: 'https://docker.fxxk.dedyn.io',icon: "iconfont icon-docker-fill" },
+        { key: 'Docker镜像站', link: 'https://docker.fxxk.dedyn.io',icon: "iconfont icon-docker" },
         { key: 'Huggingface镜像站', link: 'https://hf-mirror.com' ,icon: "iconfont icon-th-large"},
         { key: 'Github文件加速站', link: 'https://github.fxxk.dedyn.io',icon: "iconfont icon-github-fill" },
-        { key: '友链', link: 'https://blog.cmliussss.com',icon: "iconfont icon-books-fill"  }
+        { key: '友链', link: 'https://blog.cmliussss.com',icon: "iconfont icon-books"  }
       ]
     }
     - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
