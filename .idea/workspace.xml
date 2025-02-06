@@ -4,17 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d49875d-fdb4-493c-be6c-35b6ecec3ff8" name="更改" comment="add 理解和使用Java中的Optional">
-      <change afterPath="$PROJECT_DIR$/themes/fluid/source/js/jquery.js" afterDir="false" />
+    <list default="true" id="3d49875d-fdb4-493c-be6c-35b6ecec3ff8" name="更改" comment="add excerpt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.fluid.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.fluid.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/_posts/AI/Ollama基础和进阶.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/AI/Ollama基础和进阶.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/_posts/Java/理解和使用Java中的Optional.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Java/理解和使用Java中的Optional.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/_posts/PostgreSQL/PostgreSQL有用的工具和特性.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/PostgreSQL/PostgreSQL有用的工具和特性.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/_posts/Web/Git常用操作.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Web/Git常用操作.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/_posts/Web/Ubuntu启用sumba.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Web/Ubuntu启用sumba.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/_posts/Web/内网穿透方案.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Web/内网穿透方案.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/fluid/layout/_partials/head.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/fluid/layout/_partials/head.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/fluid/layout/post.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/fluid/layout/post.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/about/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/about/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/fluid/languages/en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/fluid/languages/en.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/fluid/languages/zh-CN.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/fluid/languages/zh-CN.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +101,7 @@
       <workItem from="1738319418295" duration="2027000" />
       <workItem from="1738646842901" duration="27000" />
       <workItem from="1738646873094" duration="1739000" />
-      <workItem from="1738818134671" duration="2351000" />
+      <workItem from="1738818134671" duration="3383000" />
     </task>
     <task id="LOCAL-00001" summary="delete">
       <option name="closed" value="true" />
@@ -446,7 +447,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738819125646</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="add excerpt">
+      <option name="closed" value="true" />
+      <created>1738820531806</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1738820531806</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -474,7 +483,8 @@
     <MESSAGE value="add 内网穿透" />
     <MESSAGE value="modify tags page" />
     <MESSAGE value="add 理解和使用Java中的Optional" />
-    <option name="LAST_COMMIT_MESSAGE" value="add 理解和使用Java中的Optional" />
+    <MESSAGE value="add excerpt" />
+    <option name="LAST_COMMIT_MESSAGE" value="add excerpt" />
     <option name="NON_MODAL_COMMIT_POSTPONE_SLOW_CHECKS" value="false" />
   </component>
 </project>

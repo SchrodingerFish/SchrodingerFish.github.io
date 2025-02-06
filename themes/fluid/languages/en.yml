@@ -17,6 +17,13 @@ category:
   post_total: '%d posts in total'
   more: 'More...'
 
+welfare:
+  menu: 'welfare'
+  title: 'welfare'
+  subtitle: 'welfare'
+  post_total: '%d posts in total'
+  more: 'More...'
+
 tag:
   menu: 'Tags'
   title: 'Tags'
