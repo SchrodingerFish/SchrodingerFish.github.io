@@ -380,9 +380,9 @@ navbar:
         { key: '免费订阅(备)', link: 'https://lucasevans.serv00.net' },
         { key: '订阅转化(主)', link: 'https://sub.fxxk.dedyn.io' },
         { key: '订阅转化(备)', link: 'https://subconvert.joybox.us.kg' },
-        { key: 'Docker镜像站', link: 'https://hexo.fluid-dev.com/docs/icon/' }
-        { key: 'Huggingface镜像站', link: 'https://hexo.fluid-dev.com/docs/icon/' }
-        { key: 'Github文件加速站', link: 'https://hexo.fluid-dev.com/docs/icon/' }
+        { key: 'Docker镜像站', link: 'https://hexo.fluid-dev.com/docs/icon/' },
+        { key: 'Huggingface镜像站', link: 'https://hexo.fluid-dev.com/docs/icon/' },
+        { key: 'Github文件加速站', link: 'https://hexo.fluid-dev.com/docs/icon/' },
         { key: '友链', link: 'https://blog.cmliussss.com' }
       ]
     }
@@ -987,8 +987,10 @@ about:
   # More icons can be found from https://hexo.fluid-dev.com/docs/en/icon/  `class` is the css class of the icon. If adding `qrcode`, the icon is no longer a link, but a hovering QR code
   icons:
     - { class: "iconfont icon-github-fill", link: "https://github.com", tip: "GitHub" }
-    - { class: "iconfont icon-douban-fill", link: "https://douban.com", tip: "豆瓣" }
-    - { class: "iconfont icon-wechat-fill", qrcode: "/img/favicon.png" }
+    - { class: "iconfont icon-weibo-fill", link: "https://m.weibo.cn/u/6554795842", tip: "豆瓣" }
+    - { class: "iconfont icon-telegram-fill",link: "https://t.me/SchrodingersFish", qrcode: "/img/telegram.png", tip: "Telegram" }
+    - { class: "iconfont icon-wechat-fill", qrcode: "/img/wechat.png", tip: "微信" }
+    - { class: "iconfont icon-alipay-fill", qrcode: "/img/alipay.png" , tip: "支付宝"}
 
 
 #---------------------------
