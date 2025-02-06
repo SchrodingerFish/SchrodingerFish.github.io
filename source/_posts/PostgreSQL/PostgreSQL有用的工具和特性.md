@@ -6,7 +6,9 @@ categories:
 tags:
   - PostgreSQL
 ---
+{% note success %}
 PostgreSQL 是一个功能强大的关系型数据库管理系统，拥有许多功能强大的工具和特性，可以帮助开发人员和数据库管理员高效地管理和操作数据。以下是一些非常有用的工具和特性：
+{% endnote %}
 
 ### 1. **窗口函数 (Window Functions)**
 

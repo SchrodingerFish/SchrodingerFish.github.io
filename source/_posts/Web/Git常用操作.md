@@ -6,10 +6,9 @@ categories:
 tags:
   - Git
 ---
-
-
+{% note success %}
 在日常开发中，Git 是一个非常重要的工具，熟练掌握 Git 的常用命令，可以显著提高你的效率。以下是一些 Git 常用命令，分为几个核心类别进行整理。
-
+{% endnote %}
 ---
 
 ### **1. Git 配置**
