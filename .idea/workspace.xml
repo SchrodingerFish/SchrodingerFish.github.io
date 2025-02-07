@@ -4,7 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d49875d-fdb4-493c-be6c-35b6ecec3ff8" name="更改" comment="add deepseek" />
+    <list default="true" id="3d49875d-fdb4-493c-be6c-35b6ecec3ff8" name="更改" comment="add deepseek">
+      <change afterPath="$PROJECT_DIR$/source/img/AI/images/v2-375e98afbb0de7e7d1997711898af857_1440w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/img/AI/images/v2-37bbf60de0f14838fb6a3962f7dca85c_1440w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/img/AI/images/v2-61995510606a20a413ea6802792bad3a_1440w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/img/AI/images/v2-6b1fbe1b839f047e5be883f9252dc2af_1440w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/img/AI/images/v2-754144fe4409cb1adee66c9c5c013767_1440w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/img/AI/images/v2-7b7771ad22581145d0271b2e5f515c25_1440w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/img/AI/images/v2-8108b12ff9c67882b4a900512f6012fb_1440w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/img/AI/images/v2-82768b9ac3bc5b34347ce298f2a2e43d_1440w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/img/AI/images/v2-83ae34245dbec3286efaff5d02117cea_1440w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/img/AI/images/v2-8f9061b1f586f8f1c7c3122c7eb78c01_1440w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/img/AI/images/v2-9108eb961c7e5696bb00244856372842_1440w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/img/AI/images/v2-98b93c30895f1db3159eecb01f9e69fe_1440w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/img/AI/images/v2-a71cfc9444edae94eed9560333989272_1440w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/img/AI/images/v2-a9081f6db9305b2f5b1c0d97ac06eac1_1440w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/img/AI/images/v2-d9f0318c9ca76ed0410f62aac88562fe_1440w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/img/AI/images/v2-da4418f86e0a977315df7a24e939dc50_1440w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/img/AI/images/v2-e24c3954a0eda7c6071c8ff4ad74cc21_1440w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/img/AI/images/v2-e3781a9689d7e05de83825e13a9012e8_1440w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/img/AI/images/v2-ecb01e4f41acf536c41168ca8049c2a2_1440w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/img/AI/images/v2-f6e91e9267bbcedc65766170cdb3dd3f_1440w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/img/AI/images/v2-fe8d0d297cafe73015b501d5f3c708af_1440w.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/AI/本地部署DeepSeek14b.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/AI/本地部署DeepSeek14b.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,26 +64,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;G:/Projects/WebStorm/SchrodingerFish.github.io/source/img&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\Program Files\\JetBrains\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.codeium.enabled": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "G:/Projects/WebStorm/SchrodingerFish.github.io/source/img/AI",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "settings.sync",
+    "ts.external.directory.path": "D:\\Program Files\\JetBrains\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Projects\WebStorm\SchrodingerFish.github.io\source\img\AI" />
       <recent name="G:\Projects\WebStorm\SchrodingerFish.github.io\source\img" />
       <recent name="G:\Projects\WebStorm\SchrodingerFish.github.io\themes\fluid\source\img" />
     </key>
@@ -92,14 +117,6 @@
       <workItem from="1738646873094" duration="1739000" />
       <workItem from="1738818134671" duration="3383000" />
       <workItem from="1738895044400" duration="2908000" />
-    </task>
-    <task id="LOCAL-00013" summary="init">
-      <option name="closed" value="true" />
-      <created>1738314843750</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1738314843750</updated>
     </task>
     <task id="LOCAL-00014" summary="init">
       <option name="closed" value="true" />
@@ -485,7 +502,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738916925665</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="add deepseek">
+      <option name="closed" value="true" />
+      <created>1738920857855</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1738920857855</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

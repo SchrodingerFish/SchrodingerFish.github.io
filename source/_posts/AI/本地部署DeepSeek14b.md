@@ -29,21 +29,21 @@ Ollama 是一个轻量级的本地AI模型运行框架，可在本地运行各�
 
 选择一个系统进行下载
 
-![](https://pica.zhimg.com/v2-a71cfc9444edae94eed9560333989272_1440w.jpg)
+![](/img/AI/images/v2-a71cfc9444edae94eed9560333989272_1440w.jpg)
 
-![](https://pic4.zhimg.com/v2-754144fe4409cb1adee66c9c5c013767_1440w.jpg)
+![](/img/AI/images/v2-754144fe4409cb1adee66c9c5c013767_1440w.jpg)
 
 安装之后，Ollama已经运行了，它是CMD命令工具，我们可以在命令行输入ollama来验证，是否安装成功
 
 如果出现下图的内容的话，就表示下载成功
 
-![](https://pic4.zhimg.com/v2-82768b9ac3bc5b34347ce298f2a2e43d_1440w.jpg)
+![](/img/AI/images/v2-82768b9ac3bc5b34347ce298f2a2e43d_1440w.jpg)
 
 **安装DeepSeek-r1模型** 还是在刚才的Ollama网站，选择Model模块，选择deepseek-r1这个模型
 
-![](https://pic1.zhimg.com/v2-d9f0318c9ca76ed0410f62aac88562fe_1440w.jpg)
+![](/img/AI/images/v2-d9f0318c9ca76ed0410f62aac88562fe_1440w.jpg)
 
-![](https://pic2.zhimg.com/v2-8f9061b1f586f8f1c7c3122c7eb78c01_1440w.jpg)
+![](/img/AI/images/v2-8f9061b1f586f8f1c7c3122c7eb78c01_1440w.jpg)
 
 搜索出来有很多个版本，区别就是参数不一样。
 
@@ -59,39 +59,39 @@ Ollama 是一个轻量级的本地AI模型运行框架，可在本地运行各�
 
 使用ollama run deepseek-r1:14b 进行下载
 
-![](https://pic2.zhimg.com/v2-a9081f6db9305b2f5b1c0d97ac06eac1_1440w.jpg)
+![](/img/AI/images/v2-a9081f6db9305b2f5b1c0d97ac06eac1_1440w.jpg)
 
-![](https://pic3.zhimg.com/v2-ecb01e4f41acf536c41168ca8049c2a2_1440w.jpg)
+![](/img/AI/images/v2-ecb01e4f41acf536c41168ca8049c2a2_1440w.jpg)
 
 这里我第一次失败了，所以我试了两次，才成功。
 
 我们也可以在命令行中输入，ollama list 查看是否成功下载了模型，下图的内容表明下载成功
 
-![](https://pic3.zhimg.com/v2-37bbf60de0f14838fb6a3962f7dca85c_1440w.jpg)
+![](/img/AI/images/v2-37bbf60de0f14838fb6a3962f7dca85c_1440w.jpg)
 
 输入ollama run deepseek-r1:14b运行模型
 
 启动成功后，就可以输入我们想问的问题，模型首先会进行深度思考（也就是think标签包含的地方），思考结束后会反馈我们问题的结果。
 
-![](https://pica.zhimg.com/v2-98b93c30895f1db3159eecb01f9e69fe_1440w.jpg)
+![](/img/AI/images/v2-98b93c30895f1db3159eecb01f9e69fe_1440w.jpg)
 
 **注意：由于ollama默认是将模型下载到C盘的，如果你的C盘空间也和我的一样拉跨**
 
-![](https://pic4.zhimg.com/v2-375e98afbb0de7e7d1997711898af857_1440w.jpg)
+![](/img/AI/images/v2-375e98afbb0de7e7d1997711898af857_1440w.jpg)
 
 **那我们就需要更改一下模型的下载位置了**
 
 **编辑环境变量**
 
-![](https://pic2.zhimg.com/v2-7b7771ad22581145d0271b2e5f515c25_1440w.jpg)
+![](/img/AI/images/v2-7b7771ad22581145d0271b2e5f515c25_1440w.jpg)
 
-![](https://pic2.zhimg.com/v2-6b1fbe1b839f047e5be883f9252dc2af_1440w.jpg)
+![](/img/AI/images/v2-6b1fbe1b839f047e5be883f9252dc2af_1440w.jpg)
 
 **新建一个[系统环境变量](https://zhida.zhihu.com/search?content_id=253228484&content_type=Article&match_order=1&q=%E7%B3%BB%E7%BB%9F%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F&zhida_source=entity)**
 
-![](https://pic2.zhimg.com/v2-fe8d0d297cafe73015b501d5f3c708af_1440w.jpg)
+![](/img/AI/images/v2-fe8d0d297cafe73015b501d5f3c708af_1440w.jpg)
 
-![](https://pica.zhimg.com/v2-e3781a9689d7e05de83825e13a9012e8_1440w.jpg)
+![](/img/AI/images/v2-e3781a9689d7e05de83825e13a9012e8_1440w.jpg)
 
 **变量名请一定写[OLLAMA](https://zhida.zhihu.com/search?content_id=253228484&content_type=Article&match_order=1&q=OLLAMA&zhida_source=entity)\_MODELS**
 
@@ -103,9 +103,9 @@ Ollama 是一个轻量级的本地AI模型运行框架，可在本地运行各�
 
 **OLLAMA\_ORIGINS：\***
 
-![](https://picx.zhimg.com/v2-f6e91e9267bbcedc65766170cdb3dd3f_1440w.jpg)
+![](/img/AI/images/v2-f6e91e9267bbcedc65766170cdb3dd3f_1440w.jpg)
 
-![](https://pic1.zhimg.com/v2-da4418f86e0a977315df7a24e939dc50_1440w.jpg)
+![](/img/AI/images/v2-da4418f86e0a977315df7a24e939dc50_1440w.jpg)
 
 **都设置好后，就保存，然后重启ollama**
 
@@ -117,23 +117,23 @@ Ollama 是一个轻量级的本地AI模型运行框架，可在本地运行各�
 
 也是可以多平台下载，我这里选择windows下载
 
-![](https://pic3.zhimg.com/v2-61995510606a20a413ea6802792bad3a_1440w.jpg)
+![](/img/AI/images/v2-61995510606a20a413ea6802792bad3a_1440w.jpg)
 
 安装启动后，点击设置
 
-![](https://pic3.zhimg.com/v2-83ae34245dbec3286efaff5d02117cea_1440w.jpg)
+![](/img/AI/images/v2-83ae34245dbec3286efaff5d02117cea_1440w.jpg)
 
 模型提供方选择ollama [API](https://zhida.zhihu.com/search?content_id=253228484&content_type=Article&match_order=1&q=API&zhida_source=entity)
 
-![](https://picx.zhimg.com/v2-8108b12ff9c67882b4a900512f6012fb_1440w.jpg)
+![](/img/AI/images/v2-8108b12ff9c67882b4a900512f6012fb_1440w.jpg)
 
 然后现在可以选择模型了
 
-![](https://pic3.zhimg.com/v2-9108eb961c7e5696bb00244856372842_1440w.jpg)
+![](/img/AI/images/v2-9108eb961c7e5696bb00244856372842_1440w.jpg)
 
 能成功使用
 
-![](https://pic2.zhimg.com/v2-e24c3954a0eda7c6071c8ff4ad74cc21_1440w.jpg)
+![](/img/AI/images/v2-e24c3954a0eda7c6071c8ff4ad74cc21_1440w.jpg)
 
 **注意：选择[蒸馏模型](https://zhida.zhihu.com/search?content_id=253228484&content_type=Article&match_order=1&q=%E8%92%B8%E9%A6%8F%E6%A8%A1%E5%9E%8B&zhida_source=entity)的大小，需要结合自己的电脑实际情况来选择，这会关系到，模型回答的速度以及效果问题。你也可以选择用[cherry-studio](https://cherry-ai.com)作为客户端，配置方法同上面类似**
 
