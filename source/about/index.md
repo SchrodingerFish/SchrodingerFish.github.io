@@ -8,6 +8,7 @@ date: 2025-01-31 18:33:28
 ## 1.免费图床：
 
 [https://imagebed.cherryred.asia](https://imagebed.cherryred.asia)
+公开使用时认证密码：bedcfa
 
 ## 2.Gemini代理地址(原模原样)：
 
