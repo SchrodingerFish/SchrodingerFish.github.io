@@ -376,6 +376,7 @@ navbar:
       key: '公益',
       icon: 'iconfont icon-slack-fill',
       submenu: [
+        { key: '图床', link: 'https://imagebed.cherryred.asia',icon: "iconfont icon-images" },
         { key: '免费订阅(主)', link: 'https://stevenkiun.serv00.net',icon: "iconfont icon-cliplist" },
         { key: '免费订阅(备)', link: 'https://lucasevans.serv00.net',icon: "iconfont icon-cliplist" },
         { key: '订阅转化(主)', link: 'https://sub.fxxk.dedyn.io' ,icon: "iconfont icon-switch-fill"},

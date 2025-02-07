@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3d49875d-fdb4-493c-be6c-35b6ecec3ff8" name="更改" comment="add excerpt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/AI/Ollama基础和进阶.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/AI/Ollama基础和进阶.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/PostgreSQL/PostgreSQL有用的工具和特性.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/PostgreSQL/PostgreSQL有用的工具和特性.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/Web/Git常用操作.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Web/Git常用操作.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.fluid.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.fluid.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/about/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/about/index.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,12 +30,12 @@
     &quot;assignee&quot;: &quot;SchrodingerFish&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/SchrodingerFish/SchrodingerFish.github.io.git&quot;,
-    &quot;accountId&quot;: &quot;159d10d7-5a06-4d79-8747-87dc8f7e2ad6&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/SchrodingerFish/SchrodingerFish.github.io.git",
+    "accountId": "a9e9d96d-35b5-46d6-ae29-808315aefbc5"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -45,24 +44,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "com.codeium.enabled": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "G:/Projects/WebStorm/SchrodingerFish.github.io/source/img",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.sync",
-    "ts.external.directory.path": "D:\\Program Files\\JetBrains\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/Projects/WebStorm/SchrodingerFish.github.io/source/img&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\Program Files\\JetBrains\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\Projects\WebStorm\SchrodingerFish.github.io\source\img" />
@@ -96,14 +95,7 @@
       <workItem from="1738646842901" duration="27000" />
       <workItem from="1738646873094" duration="1739000" />
       <workItem from="1738818134671" duration="3383000" />
-    </task>
-    <task id="LOCAL-00003" summary="init">
-      <option name="closed" value="true" />
-      <created>1738310112508</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1738310112508</updated>
+      <workItem from="1738895044400" duration="1222000" />
     </task>
     <task id="LOCAL-00004" summary="init">
       <option name="closed" value="true" />
@@ -489,7 +481,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738829843406</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="add excerpt">
+      <option name="closed" value="true" />
+      <created>1738834375996</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1738834375996</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
