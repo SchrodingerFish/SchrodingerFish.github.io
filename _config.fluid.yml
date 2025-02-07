@@ -371,7 +371,6 @@ navbar:
     - { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" }
     - { key: "category", link: "/categories/", icon: "iconfont icon-category-fill" }
     - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
-    #- { key: "welfare", link: "/welfare/", icon: "iconfont icon-slack-fill" }
     - {
       key: '公益',
       icon: 'iconfont icon-slack-fill',
