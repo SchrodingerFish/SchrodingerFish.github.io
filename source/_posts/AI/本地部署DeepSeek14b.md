@@ -1,5 +1,5 @@
 ---
-title: 本地部署DeepSeek32B_Q4
+title: 本地部署DeepSeek14b
 date: 2025-02-07 15:46:59
 categories:
   - AI
