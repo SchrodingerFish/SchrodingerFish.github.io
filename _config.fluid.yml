@@ -375,6 +375,7 @@ navbar:
       key: '公益',
       icon: 'iconfont icon-slack-fill',
       submenu: [
+        { key: 'Bing每日一图', link: 'https://bing.joybox.us.kg',icon: "iconfont icon-image" },
         { key: '图床', link: 'https://imagebed.cherryred.asia',icon: "iconfont icon-images" },
         { key: '免费订阅(主)', link: 'https://stevenkiun.serv00.net',icon: "iconfont icon-cliplist" },
         { key: '免费订阅(备)', link: 'https://lucasevans.serv00.net',icon: "iconfont icon-cliplist" },
