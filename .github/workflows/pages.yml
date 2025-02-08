@@ -30,8 +30,8 @@ jobs:
             rm -rf ./public/*
             echo "Cleared ./public directory."
       - name: Install Dependencies
-        ## run:  npm install
-        run: npm install hexo-renderer-pug hexo-renderer-stylus --save && npm install
+        run:  npm install
+        #run: npm install hexo-renderer-pug hexo-renderer-stylus --save && npm install
       - name: Build
         run: npm run build
       - name: Upload Pages artifact
