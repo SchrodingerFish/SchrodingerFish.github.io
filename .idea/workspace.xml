@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d49875d-fdb4-493c-be6c-35b6ecec3ff8" name="更改" comment="modify theme anzhiyu" />
+    <list default="true" id="3d49875d-fdb4-493c-be6c-35b6ecec3ff8" name="更改" comment="modify theme anzhiyu">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.anzhiyu.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.anzhiyu.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,11 +69,11 @@
       <recent name="G:\Projects\WebStorm\SchrodingerFish.github.io\themes\fluid\source\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Projects\WebStorm\SchrodingerFish.github.io\source\_posts" />
       <recent name="G:\Projects\WebStorm\SchrodingerFish.github.io\source\categories" />
       <recent name="G:\Projects\WebStorm\SchrodingerFish.github.io" />
       <recent name="G:\Projects\WebStorm\SchrodingerFish.github.io\source\_posts\AI" />
       <recent name="G:\Projects\WebStorm\SchrodingerFish.github.io\source\img" />
-      <recent name="G:\Projects\WebStorm\SchrodingerFish.github.io\source\_posts" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -94,15 +97,7 @@
       <workItem from="1738646873094" duration="1739000" />
       <workItem from="1738818134671" duration="3383000" />
       <workItem from="1738895044400" duration="2908000" />
-      <workItem from="1738993070701" duration="1018000" />
-    </task>
-    <task id="LOCAL-00019" summary="init">
-      <option name="closed" value="true" />
-      <created>1738320282077</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1738320282077</updated>
+      <workItem from="1738993070701" duration="1234000" />
     </task>
     <task id="LOCAL-00020" summary="init">
       <option name="closed" value="true" />
@@ -488,7 +483,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738994073578</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="modify theme anzhiyu">
+      <option name="closed" value="true" />
+      <created>1738994158927</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1738994158927</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
