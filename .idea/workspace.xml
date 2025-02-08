@@ -5,8 +5,340 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d49875d-fdb4-493c-be6c-35b6ecec3ff8" name="更改" comment="add deepseek">
+      <change afterPath="$PROJECT_DIR$/_config.anzhiyu.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/.github/ISSUE_TEMPLATE/bug_report.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/.github/ISSUE_TEMPLATE/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/.github/ISSUE_TEMPLATE/feature_request.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/.github/workflows/issue_close_question.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/.github/workflows/issue_close_stale.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/.github/workflows/issue_duplicate.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/.github/workflows/issue_invalid.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/.github/workflows/issue_question.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/.github/workflows/issue_wontfix.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/.github/workflows/publish.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/.github/workflows/stale.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/README_EN.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/_config.yml.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/languages/default.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/languages/en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/languages/zh-CN.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/languages/zh-TW.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/archive.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/category.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/404.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/additional-js.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/anzhiyu/ai-info.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/anzhiyu/clock.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/anzhiyu/console.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/anzhiyu/log-js.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/anzhiyu/rightmenu.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/anzhiyu/tags-group-all.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/bbTimeList.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/bili-banner/index.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/categoryGroup.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/footer.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/head.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/head/Open_Graph.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/head/analytics.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/head/config.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/head/config_site.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/head/google_adsense.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/head/noscript.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/head/preconnect.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/head/pwa.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/head/site_verification.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/header/index.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/header/menu_item.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/header/nav.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/header/post-info.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/header/social.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/layout.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/loading/fullpage-loading.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/loading/index.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/loading/pace.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/mixins/article-sort.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/mixins/post-ui.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/mourn.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/music.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/page/about.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/page/album.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/page/album_detail.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/page/categories.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/page/default-page.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/page/equipment.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/page/essay.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/page/fcircle.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/page/flink.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/page/music.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/page/room.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/page/tags.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/pagination.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/popup/index.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/post/post-copyright.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/post/ptool.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/post/reward.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/rightside.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/shortcutKey.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/sidebar.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/third-party/aplayer.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/third-party/card-post-count/artalk.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/third-party/card-post-count/index.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/third-party/card-post-count/twikoo.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/third-party/card-post-count/valine.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/third-party/card-post-count/waline.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/third-party/chat/chatra.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/third-party/chat/crisp.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/third-party/chat/daovoice.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/third-party/chat/index.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/third-party/chat/tidio.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/third-party/comments/artalk.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/third-party/comments/giscus.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/third-party/comments/index.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/third-party/comments/js.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/third-party/comments/twikoo.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/third-party/comments/valine.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/third-party/comments/waline.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/third-party/effect.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/third-party/footerBarSubtitle.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/third-party/math/index.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/third-party/math/katex.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/third-party/math/mathjax.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/third-party/math/mermaid.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/third-party/newest-comments/artalk.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/third-party/newest-comments/index.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/third-party/newest-comments/twikoo-comment.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/third-party/newest-comments/valine.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/third-party/newest-comments/waline.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/third-party/pangu.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/third-party/pjax.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/third-party/prismjs.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/third-party/runtime/runtime-js.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/third-party/search/algolia.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/third-party/search/docsearch.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/third-party/search/index.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/third-party/search/local-search.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/third-party/share/addtoany.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/third-party/share/index.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/third-party/share/share-js.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/third-party/subtitle.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/top/top.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/widget/card_ad.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/widget/card_announcement.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/widget/card_archives.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/widget/card_author.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/widget/card_bottom_self.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/widget/card_categories.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/widget/card_console_archives.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/widget/card_console_tags.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/widget/card_newest_comment.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/widget/card_post_toc.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/widget/card_recent_post.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/widget/card_tags.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/widget/card_top_self.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/widget/card_webinfo.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/widget/card_weixin.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/includes/widget/index.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/index.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/page.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/post.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/layout/tag.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/plugins.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/scripts/events/404.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/scripts/events/cdn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/scripts/events/comment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/scripts/events/init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/scripts/events/merge_config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/scripts/events/stylus.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/scripts/events/welcome.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/scripts/filters/post_lazyload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/scripts/filters/random_cover.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/scripts/helpers/aside_archives.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/scripts/helpers/aside_categories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/scripts/helpers/catalog_list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/scripts/helpers/findArchiveLength.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/scripts/helpers/get_version.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/scripts/helpers/inject_head_js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/scripts/helpers/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/scripts/helpers/random.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/scripts/helpers/related_post.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/scripts/helpers/sort_attr_post.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/scripts/helpers/tags_page_list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/scripts/helpers/year.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/scripts/tag/Introduction-card.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/scripts/tag/bilibili.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/scripts/tag/btns.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/scripts/tag/button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/scripts/tag/checkbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/scripts/tag/dogeplayer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/scripts/tag/flink.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/scripts/tag/folding.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/scripts/tag/gallery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/scripts/tag/hide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/scripts/tag/iconfont.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/scripts/tag/image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/scripts/tag/inline-labels.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/scripts/tag/inlineImg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/scripts/tag/label.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/scripts/tag/link.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/scripts/tag/media.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/scripts/tag/mermaid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/scripts/tag/note.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/scripts/tag/site.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/scripts/tag/span.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/scripts/tag/tabs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/scripts/tag/timeline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/scripts/tag/tip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_extra/album/album.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_extra/album/album_detail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_extra/anzhiyu/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_extra/aside_weixin/aside_weixin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_extra/catalog_list/catalog_list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_extra/categoryBar/categoryBar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_extra/clock/clock.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_extra/code/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_extra/code/details_summary.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_extra/commentBarrage/commentBarrage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_extra/console/console.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_extra/essay_page/essay_page.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_extra/essay_page/home_essay_bar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_extra/fix/aplayer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_extra/fix/bilibili-bangumi.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_extra/fix/bilibili-ratio.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_extra/fix/categories.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_extra/fix/clock.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_extra/fix/comments.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_extra/fix/dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_extra/fix/fcircle_page.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_extra/fix/gitcalendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_extra/fix/hexo-tag-dplayer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_extra/fix/hide-block.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_extra/fix/link_page.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_extra/fix/overflow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_extra/fix/radius.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_extra/fix/site-card.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_extra/footer/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_extra/friends/friends.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_extra/greeting_box/greeting_box.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_extra/home_top/categorygroup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_extra/home_top/home_top.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_extra/home_top/home_top_post_group.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_extra/home_top/random-banner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_extra/home_top/swiperstyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_extra/home_top/top_group_banner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_extra/local_search/local_search.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_extra/reset/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_extra/reward/about-reward.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_extra/room/room.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_extra/runtime/runtime.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_extra/single_card/single_card.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_extra/skills/skills.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_extra/tag/link.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_extra/tag/site.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_global/function.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_global/icon.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_global/index.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_global/loading.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_highlight/highlight.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_highlight/highlight/diff.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_highlight/highlight/index.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_highlight/prismjs/diff.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_highlight/prismjs/index.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_highlight/prismjs/line-number.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_highlight/theme.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_layout/404.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_layout/aside.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_layout/banner.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_layout/chat.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_layout/comments.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_layout/footer.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_layout/head.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_layout/home_top.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_layout/nav.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_layout/oneGraphFlow.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_layout/pagination.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_layout/post.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_layout/ptool.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_layout/relatedposts.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_layout/reward.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_layout/rightmenu.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_layout/rightside.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_layout/shortcutKey.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_layout/sidebar.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_layout/third-party.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_mode/darkmode.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_mode/readmode.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_page/404.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_page/about.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_page/archives.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_page/categories.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_page/common.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_page/equipment.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_page/flink.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_page/homepage.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_page/music.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_page/reward.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_page/tag_page.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_page/tags.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_search/algolia.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_search/index.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_search/local-search.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_tags/Introduction-card.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_tags/bilbili.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_tags/btns.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_tags/button.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_tags/checkbox.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_tags/folding.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_tags/gallery.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_tags/hexo.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_tags/hide.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_tags/image.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_tags/inline-labels.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_tags/inlineImg.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_tags/label.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_tags/media.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_tags/note.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_tags/site-card.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_tags/span.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_tags/tabs.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_tags/timeline.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_tags/tip.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_third-party/normalize.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_third-party/snackbar.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/_third-party/twikoo.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/index.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/css/var.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/img/404.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/img/512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/img/algolia.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/img/comment_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/img/default_cover.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/img/friend_404.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/img/siteicon/16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/img/siteicon/32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/img/siteicon/apple-icon-180.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/img/siteicon/manifest-icon-192.maskable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/img/siteicon/manifest-icon-512.maskable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/js/anzhiyu/ai_abstract.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/js/anzhiyu/comment_barrage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/js/anzhiyu/people.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/js/anzhiyu/random_friends_post.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/js/anzhiyu/right_click_menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/js/search/algolia.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/js/search/local-search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/js/tw_cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/source/js/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/anzhiyu/sw-rules.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/pages.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/pages.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.fluid.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.fluid.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,12 +361,12 @@
     &quot;assignee&quot;: &quot;SchrodingerFish&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/SchrodingerFish/SchrodingerFish.github.io.git",
-    "accountId": "159d10d7-5a06-4d79-8747-87dc8f7e2ad6"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SchrodingerFish/SchrodingerFish.github.io.git&quot;,
+    &quot;accountId&quot;: &quot;159d10d7-5a06-4d79-8747-87dc8f7e2ad6&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -43,36 +375,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;G:/Projects/WebStorm/SchrodingerFish.github.io/source/img/AI&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\Program Files\\JetBrains\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.codeium.enabled": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "G:/Projects/WebStorm/SchrodingerFish.github.io/themes",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "settings.sync",
+    "ts.external.directory.path": "D:\\Program Files\\JetBrains\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Projects\WebStorm\SchrodingerFish.github.io\themes" />
       <recent name="G:\Projects\WebStorm\SchrodingerFish.github.io\source\img\AI" />
       <recent name="G:\Projects\WebStorm\SchrodingerFish.github.io\source\img" />
       <recent name="G:\Projects\WebStorm\SchrodingerFish.github.io\themes\fluid\source\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Projects\WebStorm\SchrodingerFish.github.io" />
       <recent name="G:\Projects\WebStorm\SchrodingerFish.github.io\source\_posts\AI" />
       <recent name="G:\Projects\WebStorm\SchrodingerFish.github.io\source\img" />
       <recent name="G:\Projects\WebStorm\SchrodingerFish.github.io\source\_posts" />
       <recent name="G:\Projects\WebStorm\SchrodingerFish.github.io\source\categories" />
-      <recent name="G:\Projects\WebStorm\SchrodingerFish.github.io\categories" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -96,14 +429,7 @@
       <workItem from="1738646873094" duration="1739000" />
       <workItem from="1738818134671" duration="3383000" />
       <workItem from="1738895044400" duration="2908000" />
-    </task>
-    <task id="LOCAL-00015" summary="init">
-      <option name="closed" value="true" />
-      <created>1738315408156</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1738315408156</updated>
+      <workItem from="1738993070701" duration="225000" />
     </task>
     <task id="LOCAL-00016" summary="init">
       <option name="closed" value="true" />
@@ -489,7 +815,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738945723803</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="add deepseek">
+      <option name="closed" value="true" />
+      <created>1738946986992</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1738946986992</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
