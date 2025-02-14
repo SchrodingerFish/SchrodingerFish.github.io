@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d49875d-fdb4-493c-be6c-35b6ecec3ff8" name="更改" comment="add Linux pages">
-      <change afterPath="$PROJECT_DIR$/source/_posts/Develop/IntelliJ IDEA快捷键大全.md" afterDir="false" />
-    </list>
+    <list default="true" id="3d49875d-fdb4-493c-be6c-35b6ecec3ff8" name="更改" comment="add develop page" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +47,7 @@
     "com.codeium.enabled": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "G:/Projects/WebStorm/SchrodingerFish.github.io/source/_posts/Develop",
+    "last_opened_file_path": "G:/Projects/WebStorm/SchrodingerFish.github.io/source/img/Develop",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -62,11 +60,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Projects\WebStorm\SchrodingerFish.github.io\source\img\Develop" />
       <recent name="G:\Projects\WebStorm\SchrodingerFish.github.io\source\_posts\Develop" />
       <recent name="G:\Projects\WebStorm\SchrodingerFish.github.io\source\_posts\Linux" />
       <recent name="G:\Projects\WebStorm\SchrodingerFish.github.io\themes" />
       <recent name="G:\Projects\WebStorm\SchrodingerFish.github.io\source\img\AI" />
-      <recent name="G:\Projects\WebStorm\SchrodingerFish.github.io\source\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\Projects\WebStorm\SchrodingerFish.github.io\source\_posts" />
@@ -99,15 +97,7 @@
       <workItem from="1738895044400" duration="2908000" />
       <workItem from="1738993070701" duration="1234000" />
       <workItem from="1739155694976" duration="400000" />
-      <workItem from="1739518782466" duration="773000" />
-    </task>
-    <task id="LOCAL-00025" summary="modify categories">
-      <option name="closed" value="true" />
-      <created>1738654068886</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1738654068886</updated>
+      <workItem from="1739518782466" duration="1465000" />
     </task>
     <task id="LOCAL-00026" summary="modify categories">
       <option name="closed" value="true" />
@@ -493,7 +483,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739519202563</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="add develop page">
+      <option name="closed" value="true" />
+      <created>1739519580818</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1739519580818</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -529,7 +527,8 @@
     <MESSAGE value="modify theme anzhiyu" />
     <MESSAGE value="modify theme fluid" />
     <MESSAGE value="add Linux pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Linux pages" />
+    <MESSAGE value="add develop page" />
+    <option name="LAST_COMMIT_MESSAGE" value="add develop page" />
     <option name="NON_MODAL_COMMIT_POSTPONE_SLOW_CHECKS" value="false" />
   </component>
 </project>
