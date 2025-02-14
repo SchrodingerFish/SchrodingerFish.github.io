@@ -19,7 +19,7 @@ cat /etc/openwrt_release
 ```
 
 输出结果类似如下：
-```
+```bash
 DISTRIB_ID='OpenWrt'
 DISTRIB_RELEASE='22.03.5'
 DISTRIB_REVISION='r20134-5f15225c1e'
@@ -45,7 +45,7 @@ uname -a
 ```
 
 输出类似如下：
-```
+```bash
 Linux OpenWrt 5.10.176 #0 SMP Tue Feb 21 15:54:42 2023 mips GNU/Linux
 ```
 
@@ -62,7 +62,7 @@ opkg print-architecture
 
 这会输出当前系统支持的架构信息：
 
-```
+```bash
 arch all 1
 arch ramips_24kec 100
 arch mipsel_24kc 200

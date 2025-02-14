@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d49875d-fdb4-493c-be6c-35b6ecec3ff8" name="更改" comment="modify theme fluid">
-      <change afterPath="$PROJECT_DIR$/source/_posts/Linux/OpenWRT版本查看.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2025_2_4_15_14____.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2025_2_4_15_14_取消提交了更改_[更改]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="3d49875d-fdb4-493c-be6c-35b6ecec3ff8" name="更改" comment="add Linux pages">
+      <change beforePath="$PROJECT_DIR$/source/_posts/Linux/OpenWRT版本查看.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Linux/OpenWRT版本查看.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,15 +99,7 @@
       <workItem from="1738895044400" duration="2908000" />
       <workItem from="1738993070701" duration="1234000" />
       <workItem from="1739155694976" duration="400000" />
-      <workItem from="1739518782466" duration="86000" />
-    </task>
-    <task id="LOCAL-00022" summary="init">
-      <option name="closed" value="true" />
-      <created>1738321320458</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1738321320458</updated>
+      <workItem from="1739518782466" duration="230000" />
     </task>
     <task id="LOCAL-00023" summary="modify config.yml">
       <option name="closed" value="true" />
@@ -496,7 +485,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739009243543</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="add Linux pages">
+      <option name="closed" value="true" />
+      <created>1739518888033</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1739518888033</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -531,7 +528,8 @@
     <MESSAGE value="add deepseek" />
     <MESSAGE value="modify theme anzhiyu" />
     <MESSAGE value="modify theme fluid" />
-    <option name="LAST_COMMIT_MESSAGE" value="modify theme fluid" />
+    <MESSAGE value="add Linux pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Linux pages" />
     <option name="NON_MODAL_COMMIT_POSTPONE_SLOW_CHECKS" value="false" />
   </component>
 </project>
