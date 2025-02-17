@@ -801,11 +801,11 @@ disqus:
 # Based on GitHub Issues
 # See: https://github.com/gitalk/gitalk#options
 gitalk:
-  clientID: 'Ov23lipmhglU4iTw7xtc'
-  clientSecret: '7515c04c2876cdf82c4b81fce6b10f6b62ece95e'
-  repo: 'SchrodingerFish/gitalk-comments'
-  owner: 'SchrodingersFish'
-  admin: ['SchrodingersFish']
+  clientID: Ov23lipmhglU4iTw7xtc
+  clientSecret: 7515c04c2876cdf82c4b81fce6b10f6b62ece95e
+  repo: SchrodingerFish/gitalk-comments
+  owner: SchrodingerFish
+  admin: ['SchrodingerFish']
   language: zh-CN
   labels: ['Gitalk']
   perPage: 10
