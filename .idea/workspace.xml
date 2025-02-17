@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d49875d-fdb4-493c-be6c-35b6ecec3ff8" name="更改" comment="modify theme anzhiyu">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="3d49875d-fdb4-493c-be6c-35b6ecec3ff8" name="更改" comment="add bookmark">
       <change beforePath="$PROJECT_DIR$/source/bookmark/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/bookmark/index.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,14 +100,6 @@
       <workItem from="1738993070701" duration="1234000" />
       <workItem from="1739155694976" duration="400000" />
       <workItem from="1739518782466" duration="1465000" />
-    </task>
-    <task id="LOCAL-00031" summary="modify tags page">
-      <option name="closed" value="true" />
-      <created>1738658596179</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1738658596179</updated>
     </task>
     <task id="LOCAL-00032" summary="modify tags page">
       <option name="closed" value="true" />
@@ -494,7 +485,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739810317810</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="add bookmark">
+      <option name="closed" value="true" />
+      <created>1739811251247</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1739811251247</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -531,7 +530,8 @@
     <MESSAGE value="add Linux pages" />
     <MESSAGE value="add develop page" />
     <MESSAGE value="modify theme anzhiyu" />
-    <option name="LAST_COMMIT_MESSAGE" value="modify theme anzhiyu" />
+    <MESSAGE value="add bookmark" />
+    <option name="LAST_COMMIT_MESSAGE" value="add bookmark" />
     <option name="NON_MODAL_COMMIT_POSTPONE_SLOW_CHECKS" value="false" />
   </component>
 </project>
