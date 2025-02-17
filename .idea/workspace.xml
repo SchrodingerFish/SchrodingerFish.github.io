@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d49875d-fdb4-493c-be6c-35b6ecec3ff8" name="更改" comment="add develop page">
+    <list default="true" id="3d49875d-fdb4-493c-be6c-35b6ecec3ff8" name="更改" comment="modify theme anzhiyu">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.fluid.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.fluid.yml" afterDir="false" />
     </list>
@@ -101,14 +101,6 @@
       <workItem from="1738993070701" duration="1234000" />
       <workItem from="1739155694976" duration="400000" />
       <workItem from="1739518782466" duration="1465000" />
-    </task>
-    <task id="LOCAL-00026" summary="modify categories">
-      <option name="closed" value="true" />
-      <created>1738654303843</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1738654303843</updated>
     </task>
     <task id="LOCAL-00027" summary="modify categories">
       <option name="closed" value="true" />
@@ -494,7 +486,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739519580818</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="modify theme anzhiyu">
+      <option name="closed" value="true" />
+      <created>1739808852025</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1739808852025</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -527,11 +527,11 @@
     <MESSAGE value="add about QQ" />
     <MESSAGE value="add image bed secret" />
     <MESSAGE value="add deepseek" />
-    <MESSAGE value="modify theme anzhiyu" />
     <MESSAGE value="modify theme fluid" />
     <MESSAGE value="add Linux pages" />
     <MESSAGE value="add develop page" />
-    <option name="LAST_COMMIT_MESSAGE" value="add develop page" />
+    <MESSAGE value="modify theme anzhiyu" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify theme anzhiyu" />
     <option name="NON_MODAL_COMMIT_POSTPONE_SLOW_CHECKS" value="false" />
   </component>
 </project>

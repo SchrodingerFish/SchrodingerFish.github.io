@@ -462,22 +462,22 @@ open_graph:
   fb_app_id:
 
 
-costom_html:  '<script src="https://giscus.app/client.js"
-        data-repo="SchrodingerFish/giscus-comments"
-        data-repo-id="R_kgDON7BogQ"
-        data-category="Announcements"
-        data-category-id="DIC_kwDON7Bogc4CnDFZ"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="dark_protanopia"
-        data-lang="zh-CN"
-        data-loading="lazy"
-        crossorigin="anonymous"
-        async>
-</script>'
+#costom_html:  '<script src="https://giscus.app/client.js"
+#        data-repo="SchrodingerFish/giscus-comments"
+#        data-repo-id="R_kgDON7BogQ"
+#        data-category="Announcements"
+#        data-category-id="DIC_kwDON7Bogc4CnDFZ"
+#        data-mapping="pathname"
+#        data-strict="0"
+#        data-reactions-enabled="1"
+#        data-emit-metadata="0"
+#        data-input-position="bottom"
+#        data-theme="dark_protanopia"
+#        data-lang="zh-CN"
+#        data-loading="lazy"
+#        crossorigin="anonymous"
+#        async>
+#</script>'
 
 
 #---------------------------
@@ -922,17 +922,22 @@ cusdis:
 # Based on GitHub Discussions, similar to Utterances
 # See: https://giscus.app/
 giscus:
-  repo:
-  repo-id:
-  category:
-  category-id:
+  src: https://giscus.app/client.js
+  repo: SchrodingerFish/giscus-comments
+  repo-id: R_kgDON7BogQ
+  category: Announcements
+  category-id: DIC_kwDON7Bogc4CnDFZ
   theme-light: light
   theme-dark: dark
+  strict: 0
   mapping: pathname
   reactions-enabled: 1
   emit-metadata: 0
-  input-position: top
+  input-position: bottom
+  loading: lazy
   lang: zh-CN
+  crossorigin: anonymous
+  async: true
 
 # Discuss
 # 多平台、多数据库、自托管、免费开源评论系统
