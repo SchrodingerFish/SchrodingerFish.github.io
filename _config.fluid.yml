@@ -806,6 +806,7 @@ gitalk:
   repo: SchrodingerFish/gitalk-comments
   owner: SchrodingerFish
   admin: ['SchrodingerFish']
+  id: location.pathname,
   language: zh-CN
   labels: ['Gitalk']
   perPage: 10
