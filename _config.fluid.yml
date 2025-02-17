@@ -803,7 +803,7 @@ disqus:
 gitalk:
   clientID: 'Ov23lipmhglU4iTw7xtc'
   clientSecret: '7515c04c2876cdf82c4b81fce6b10f6b62ece95e'
-  repo: 'gitalk-comments'
+  repo: 'SchrodingerFish/gitalk-comments'
   owner: 'SchrodingersFish'
   admin: ['SchrodingersFish']
   language: zh-CN
