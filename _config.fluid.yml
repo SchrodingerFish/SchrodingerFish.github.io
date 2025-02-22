@@ -370,7 +370,7 @@ navbar:
     - { key: "home", link: "/", icon: "iconfont icon-home-fill" }
     - { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" }
     - { key: "category", link: "/categories/", icon: "iconfont icon-category-fill" }
-    - { key: "bookmark", link: "/bookmark/", icon: "iconfont icon-books", name: "书签" }
+    - { key: "bookmark", link: "/bookmark/", icon: "iconfont icon-books", name: "书签",link:"https://bookmark.1236524.xyz/"}
     - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
     - {
       key: '公益',
