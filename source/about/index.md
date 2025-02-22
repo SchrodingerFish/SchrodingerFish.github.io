@@ -12,7 +12,7 @@ date: 2025-01-31 18:33:28
 
 ## 2.Gemini代理地址(原模原样)：
 
-接口地址：[https://gemini-proxy.joybox.us.kg](https://gemini-proxy.joybox.us.kg)
+接口地址：[https://gemini-proxy.joybox.us.kg](https://gemini-proxy.joybox.us.kg)(失效，us.kg域名已被停止DNS解析)
 Gemini密钥获取(需T子)：[https://aistudio.google.com/app/apikey](https://aistudio.google.com/app/apikey)
 
 ## 3.Gemini代理成OpenAI地址：
@@ -20,7 +20,7 @@ Gemini密钥获取(需T子)：[https://aistudio.google.com/app/apikey](https://a
 {% note success %}
 此接口会响应为OpenAI的结构体
 {% endnote %}
-接口地址：[https://gemini.joybox.us.kg](https://gemini.joybox.us.kg)
+接口地址：[https://gemini.joybox.us.kg](https://gemini.joybox.us.kg)(失效，us.kg域名已被停止DNS解析)
 Gemini密钥获取(需T子)：[https://aistudio.google.com/app/apikey](https://aistudio.google.com/app/apikey)
 
 ## 4.DockerHub镜像站
@@ -35,7 +35,7 @@ Gemini密钥获取(需T子)：[https://aistudio.google.com/app/apikey](https://a
 
 [https://sub.fxxk.dedyn.io(主)](https://sub.fxxk.dedyn.io/)
 
-[https://subconvert.joybox.us.kg(备)](https://subconvert.joybox.us.kg/)
+[https://subconvert.cherryred.xyz(备)](https://subconvert.cherryred.xyz/)
 
 ## 7.免费订阅网站
 
