@@ -390,6 +390,7 @@ navbar:
       icon: 'iconfont icon-briefcase',
       submenu: [
         { key: 'Bing每日一图', link: 'https://bing.cherryred.xyz',icon: "iconfont icon-image" },
+        { key: '在线看电视/电影', link: 'https://video.cherryred.xyz',icon: "iconfont icon-youtube-fill" },
         { key: '图床', link: 'https://imagebed.cherryred.asia',icon: "iconfont icon-images" },
         { key: '站点状态', link: 'https://uptime.cherryred.xyz/status/schrodingersfish',icon: "iconfont icon-codeforces" },
         { key: '主机监控', link: 'https://beszel.cherryred.xyz',icon: "iconfont icon-th-large" },
