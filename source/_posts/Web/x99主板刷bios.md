@@ -75,4 +75,4 @@ tags:
 总而言之，使用 FPTw64 刷 ROM 后缀的 BIOS 文件需要一定的技术知识和谨慎的态度。在操作之前，务必做好充分的准备，并了解可能出现的风险。 如果你不确定如何操作，建议寻求专业人士的帮助。
 
 附件：
-- [FPTw64工具下载](/attachments/fptw64.zip)
+- [FPTw64工具下载](https://imagebed.cherryred.asia/file/1743922246583_FPTw64.zip)
