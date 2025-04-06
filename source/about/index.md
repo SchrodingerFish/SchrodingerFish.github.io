@@ -12,7 +12,7 @@ date: 2025-01-31 18:33:28
 
 ## 2.Gemini代理地址(原模原样)：
 
-接口地址：[https://gemini-proxy.joybox.us.kg](https://gemini-proxy.joybox.us.kg)(失效，us.kg域名已被停止DNS解析)
+接口地址：[https://gemini-proxy.1236524.xyz](https://gemini-proxy.1236524.xyz)
 Gemini密钥获取(需T子)：[https://aistudio.google.com/app/apikey](https://aistudio.google.com/app/apikey)
 
 ## 3.Gemini代理成OpenAI地址：
@@ -20,7 +20,7 @@ Gemini密钥获取(需T子)：[https://aistudio.google.com/app/apikey](https://a
 {% note success %}
 此接口会响应为OpenAI的结构体
 {% endnote %}
-接口地址：[https://gemini.joybox.us.kg](https://gemini.joybox.us.kg)(失效，us.kg域名已被停止DNS解析)
+接口地址：[https://gemini.1236524.xyz](https://gemini.1236524.xyz)
 Gemini密钥获取(需T子)：[https://aistudio.google.com/app/apikey](https://aistudio.google.com/app/apikey)
 
 ## 4.DockerHub镜像站
@@ -41,7 +41,9 @@ Gemini密钥获取(需T子)：[https://aistudio.google.com/app/apikey](https://a
 
 主站:[https://stevenkiun.serv00.net(主)](https://stevenkiun.serv00.net/)
 
-备站:[https://lucasevans.serv00.net(备)](https://lucasevans.serv00.net/)
+备站1:[https://lucasevans.serv00.net(备1)](https://lucasevans.serv00.net/)
+
+备站2:[https://schrodinger.ct8.pl(备2)](https://schrodinger.ct8.pl/)
 
 ## 8.Github文件加速
 
