@@ -377,7 +377,8 @@ navbar:
       icon: 'iconfont icon-slack-fill',
       submenu: [
         { key: '免费Clash订阅(主)', link: 'https://stevenkiun.serv00.net',icon: "iconfont icon-cliplist" },
-        { key: '免费Clash订阅(备)', link: 'https://lucasevans.serv00.net',icon: "iconfont icon-cliplist" },
+        { key: '免费Clash订阅(备1)', link: 'https://lucasevans.serv00.net',icon: "iconfont icon-cliplist" },
+        { key: '免费Clash订阅(备2)', link: 'https://schrodinger.ct8.pl',icon: "iconfont icon-cliplist" },
         { key: '订阅转化(主)', link: 'https://sub.fxxk.dedyn.io' ,icon: "iconfont icon-switch-fill"},
         { key: '订阅转化(备)', link: 'https://subconvert.cherryred.xyz',icon: "iconfont icon-switch-fill" },
         { key: 'Docker镜像站', link: 'https://docker.fxxk.dedyn.io',icon: "iconfont icon-docker" },
