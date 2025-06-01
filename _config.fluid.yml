@@ -385,7 +385,8 @@ navbar:
         { key: '订阅转化(备)', link: 'https://subconvert.cherryred.xyz',icon: "iconfont icon-switch-fill" },
         { key: 'Docker镜像站', link: 'https://docker.fxxk.dedyn.io',icon: "iconfont icon-docker" },
         { key: 'Huggingface镜像站', link: 'https://hf-mirror.com' ,icon: "iconfont icon-th-large"},
-        { key: 'Github文件加速站', link: 'https://github.fxxk.dedyn.io',icon: "iconfont icon-github-fill" }
+        { key: 'Github文件加速站', link: 'https://github.fxxk.dedyn.io',icon: "iconfont icon-github-fill" },
+        { key: 'ITDog', link: 'https://www.itdog.cn',icon: "iconfont icon-code" }
       ]
     }
     - {
