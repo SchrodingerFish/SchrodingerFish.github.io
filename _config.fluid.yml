@@ -372,6 +372,7 @@ navbar:
     - { key: "category", link: "/categories/", icon: "iconfont icon-category-fill" }
     - { key: "bookmark", link: "https://bookmark.1236524.xyz/", icon: "iconfont icon-books", name: "书签"}
     - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
+    - { key: "热点", link: "https://news.cherryred.xyz", icon: "iconfont icon-rss"}
     - {
       key: '公益',
       icon: 'iconfont icon-slack-fill',
