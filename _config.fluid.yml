@@ -393,12 +393,12 @@ navbar:
       key: '站点/监控',
       icon: 'iconfont icon-briefcase',
       submenu: [
-        { key: 'Bing每日一图', link: 'https://bing.cherryred.xyz',icon: "iconfont icon-image" },
+        { key: 'Bing每日一图', link: 'https://bing.cherryred.asia',icon: "iconfont icon-image" },
         { key: '热点', link: 'https://news.cherryred.xyz',icon: "iconfont icon-rss" },
         { key: '在线看电视/电影', link: 'https://video.cherryred.top',icon: "iconfont icon-youtube-fill" },
         { key: '图床', link: 'https://imagebed.cherryred.asia',icon: "iconfont icon-images" },
-        { key: '站点状态', link: 'https://uptime.cherryred.xyz/status/schrodingersfish',icon: "iconfont icon-codeforces" },
-        { key: '主机监控', link: 'https://beszel.cherryred.xyz',icon: "iconfont icon-th-large" },
+#        { key: '站点状态', link: 'https://uptime.cherryred.xyz/status/schrodingersfish',icon: "iconfont icon-codeforces" },
+#        { key: '主机监控', link: 'https://beszel.cherryred.xyz',icon: "iconfont icon-th-large" },
         { key: '友链', link: 'https://blog.cmliussss.com',icon: "iconfont icon-books"  }
       ]
     }
