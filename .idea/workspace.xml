@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d49875d-fdb4-493c-be6c-35b6ecec3ff8" name="更改" comment="add ITDog link to configuration">
-      <change afterPath="$PROJECT_DIR$/source/_posts/Java/Java中URLEncoder注意问题.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/Java/基于 Spring Boot，异步下载文件到Minio.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/Python/Rocky Linux下Python项目生成虚拟环境.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/Web/Git将远程dev分支合并到远程master分支.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/Web/Windows下安装Oh My Zsh.md" afterDir="false" />
+    <list default="true" id="3d49875d-fdb4-493c-be6c-35b6ecec3ff8" name="更改" comment="update links in configuration for site monitoring and image hosting">
+      <change afterPath="$PROJECT_DIR$/source/_posts/Go/Go 运行时（Go runtime）和Java 虚拟机（JVM）区别.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/Java/Java中常见的设计模式.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/PostgreSQL/PostgreSQL中一些与quote_literal类似或相关的函数.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/Web/Windows 11 装机软件清单.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +38,9 @@
     &quot;accountId&quot;: &quot;a9e9d96d-35b5-46d6-ae29-808315aefbc5&quot;
   }
 }</component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -74,17 +76,17 @@
       <recent name="G:\Projects\WebStorm\SchrodingerFish.github.io\source\img\AI" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Projects\WebStorm\SchrodingerFish.github.io\source\_posts\Go" />
       <recent name="G:\Projects\WebStorm\SchrodingerFish.github.io\source\_posts" />
       <recent name="G:\Projects\WebStorm\SchrodingerFish.github.io\source\categories" />
       <recent name="G:\Projects\WebStorm\SchrodingerFish.github.io" />
       <recent name="G:\Projects\WebStorm\SchrodingerFish.github.io\source\_posts\AI" />
-      <recent name="G:\Projects\WebStorm\SchrodingerFish.github.io\source\img" />
     </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-WS-251.26094.131" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-WS-251.26927.40" />
       </set>
     </attachedChunks>
   </component>
@@ -115,63 +117,12 @@
       <workItem from="1748745025591" duration="3398000" />
       <workItem from="1749263285915" duration="737000" />
       <workItem from="1749429509982" duration="2983000" />
-      <workItem from="1749713793335" duration="2760000" />
-    </task>
-    <task id="LOCAL-00043" summary="add 理解和使用Java中的Optional">
-      <option name="closed" value="true" />
-      <created>1738819125646</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1738819125646</updated>
-    </task>
-    <task id="LOCAL-00044" summary="add excerpt">
-      <option name="closed" value="true" />
-      <created>1738820531806</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1738820531806</updated>
-    </task>
-    <task id="LOCAL-00045" summary="add excerpt">
-      <option name="closed" value="true" />
-      <created>1738824010366</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1738824010366</updated>
-    </task>
-    <task id="LOCAL-00046" summary="add excerpt">
-      <option name="closed" value="true" />
-      <created>1738824159159</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1738824159159</updated>
-    </task>
-    <task id="LOCAL-00047" summary="add excerpt">
-      <option name="closed" value="true" />
-      <created>1738824236377</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1738824236377</updated>
-    </task>
-    <task id="LOCAL-00048" summary="add excerpt">
-      <option name="closed" value="true" />
-      <created>1738827454316</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1738827454316</updated>
-    </task>
-    <task id="LOCAL-00049" summary="add excerpt">
-      <option name="closed" value="true" />
-      <created>1738827613536</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1738827613536</updated>
+      <workItem from="1749713793335" duration="5594000" />
+      <workItem from="1749782450340" duration="986000" />
+      <workItem from="1750216453058" duration="1107000" />
+      <workItem from="1750237538214" duration="1261000" />
+      <workItem from="1750926362509" duration="161000" />
+      <workItem from="1752634206955" duration="451000" />
     </task>
     <task id="LOCAL-00050" summary="add excerpt">
       <option name="closed" value="true" />
@@ -509,7 +460,63 @@
       <option name="project" value="LOCAL" />
       <updated>1748748024136</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="add documentation for merging remote dev branch into master and setting up Python virtual environment on Rocky Linux">
+      <option name="closed" value="true" />
+      <created>1749718657578</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1749718657578</updated>
+    </task>
+    <task id="LOCAL-00093" summary="add documentation explaining the differences between API and SDK">
+      <option name="closed" value="true" />
+      <created>1749782583218</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1749782583218</updated>
+    </task>
+    <task id="LOCAL-00094" summary="add documentation explaining the differences between API and SDK">
+      <option name="closed" value="true" />
+      <created>1749782951241</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1749782951241</updated>
+    </task>
+    <task id="LOCAL-00095" summary="update configuration to move '热点' link to submenu">
+      <option name="closed" value="true" />
+      <created>1749783046228</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1749783046228</updated>
+    </task>
+    <task id="LOCAL-00096" summary="add documentation on common open source licenses and their differences">
+      <option name="closed" value="true" />
+      <created>1750216573564</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1750216573564</updated>
+    </task>
+    <task id="LOCAL-00097" summary="add documentation on common encryption and decryption methods in Java">
+      <option name="closed" value="true" />
+      <created>1750237670891</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1750237670892</updated>
+    </task>
+    <task id="LOCAL-00098" summary="update links in configuration for site monitoring and image hosting">
+      <option name="closed" value="true" />
+      <created>1750926497090</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1750926497091</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -529,12 +536,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="delete" />
-    <MESSAGE value="modify config.yml" />
-    <MESSAGE value="init" />
-    <MESSAGE value="modify categories" />
-    <MESSAGE value="add" />
-    <MESSAGE value="add 内网穿透" />
     <MESSAGE value="modify tags page" />
     <MESSAGE value="add 理解和使用Java中的Optional" />
     <MESSAGE value="add excerpt" />
@@ -554,7 +555,13 @@
     <MESSAGE value="add TCP/IP四层模型 documentation" />
     <MESSAGE value="add documentation for understanding InputStream and OutputStream in Java" />
     <MESSAGE value="add ITDog link to configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="add ITDog link to configuration" />
+    <MESSAGE value="add documentation for merging remote dev branch into master and setting up Python virtual environment on Rocky Linux" />
+    <MESSAGE value="add documentation explaining the differences between API and SDK" />
+    <MESSAGE value="update configuration to move '热点' link to submenu" />
+    <MESSAGE value="add documentation on common open source licenses and their differences" />
+    <MESSAGE value="add documentation on common encryption and decryption methods in Java" />
+    <MESSAGE value="update links in configuration for site monitoring and image hosting" />
+    <option name="LAST_COMMIT_MESSAGE" value="update links in configuration for site monitoring and image hosting" />
     <option name="NON_MODAL_COMMIT_POSTPONE_SLOW_CHECKS" value="false" />
   </component>
 </project>
