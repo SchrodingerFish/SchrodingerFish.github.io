@@ -393,7 +393,7 @@ navbar:
       key: '站点/监控',
       icon: 'iconfont icon-briefcase',
       submenu: [
-        { key: 'Bing每日一图', link: 'https://bing.cherryred.asia',icon: "iconfont icon-image" },
+#        { key: 'Bing每日一图', link: 'https://bing.cherryred.asia',icon: "iconfont icon-image" },
         { key: '音乐汇', link: 'https://music.dreamflow.dpdns.org',icon: "iconfont icon-rss" },
         { key: '福利短剧', link: 'https://tv.dreamflow.dpdns.org',icon: "iconfont icon-youtube-fill" },
         { key: '在线音乐播放器', link: 'https://player.dreamflow.dpdns.org',icon: "iconfont icon-youtube-fill" },
