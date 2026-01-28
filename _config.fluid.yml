@@ -382,7 +382,6 @@ navbar:
         { key: '免费Clash订阅(备3)', link: 'https://subscribe.fwh.is',icon: "iconfont icon-cliplist" },
         { key: 'TVBox小飞机网盘下载', link: 'https://share.feijipan.com/s/xPGjQIqO?code=1024',icon: "iconfont icon-telegram-fill" },
         { key: '订阅转化(主)', link: 'https://sub.fxxk.dedyn.io' ,icon: "iconfont icon-switch-fill"},
-        { key: '订阅转化(备)', link: 'https://subconvert.cherryred.xyz',icon: "iconfont icon-switch-fill" },
         { key: 'Docker镜像站', link: 'https://docker.fxxk.dedyn.io',icon: "iconfont icon-docker" },
         { key: 'Huggingface镜像站', link: 'https://hf-mirror.com' ,icon: "iconfont icon-th-large"},
         { key: 'Github文件加速站', link: 'https://github.fxxk.dedyn.io',icon: "iconfont icon-github-fill" },
