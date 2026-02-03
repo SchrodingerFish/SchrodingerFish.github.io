@@ -26,27 +26,27 @@ tags:
 
 1. 进入Cloudflare零信任控制台（`控制台主页` -\> `ZeroTrust` -\> `Networks` -\> `Tunnels`）
 
-![进入Cloudflare零信任控制台，并点击Create Tunnel](https://i-blog.csdnimg.cn/direct/35682e0aa2a34253b55e605aadfe9232.png)
+![进入Cloudflare零信任控制台，并点击Create Tunnel](/img/Web/35682e0aa2a34253b55e605aadfe9232.png)
 
 2. 新建Tunnel（`Create Tunnel` -\> `Select Cloudflared` -\> `起个名字` -\> `Save tunnel`）
 
-![创建tunnel](https://i-blog.csdnimg.cn/direct/8c4cf63fea154cbba20980cbeac5a04d.png)
+![创建tunnel](/img/Web/8c4cf63fea154cbba20980cbeac5a04d.png)
 
 3. 两台电脑都下载并安装 [cloudflared客户端](https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-windows-amd64.msi)，并且复制`命令行代码`
 
-![安装cloudflared客户端，并记录密钥(命令)](https://i-blog.csdnimg.cn/direct/f8739f8f25194d429d46cc72710eb69e.png)
+![安装cloudflared客户端，并记录密钥(命令)](/img/Web/f8739f8f25194d429d46cc72710eb69e.png)
 
 4. 在被控制的电脑上运行刚才复制的命令（`Win + S` -\> `cmd` -\> `右键“命令提示符”` -\> `以管理员身份运行` -\> `在弹出的小黑框中输入刚才复制的命令并回车`）
 
-![命令提示符](https://i-blog.csdnimg.cn/direct/bdda499c3ac14011a92cc3f6d3b98ea4.png)
+![命令提示符](/img/Web/bdda499c3ac14011a92cc3f6d3b98ea4.png)
 
 配置成功后应该能在下方`Connectors`列表中看到一个“连接者”。
 
 5. 配置域名（外网访问与内网映射规则）（`点击网页上的Next` -\> `选择一个域名` -\> `协议选择RDP` -\> `URL输入localhost://3389`因为rdp默认端口是3389 -> `Save Tunnel`）
 
-![Next](https://i-blog.csdnimg.cn/direct/9b76b1b2466942a4b82c95fec61ba4b8.png)
+![Next](/img/Web/9b76b1b2466942a4b82c95fec61ba4b8.png)
 
-![配置域名](https://i-blog.csdnimg.cn/direct/b913ef86a84b46baa522ef386d21b2f1.png)
+![配置域名](/img/Web/b913ef86a84b46baa522ef386d21b2f1.png)
 
 6. 在控制者电脑上同样打开“命令提示符”，输入命令`cloudflared.exe access rdp --hostname test.letmefly.xyz --url rdp://localhost:1234`，就可以远程连接另一台电脑了（`Win + R` -\> `cmd` -\> `回车` -\> `替换这个命令并回车` -\> `Win + R` -\> `mstsc` -\> `回车` -\> `localhost:3089` -\> `填写远程连接的用户名并回车` -\> `输入密码并完成远程连接`）
 
