@@ -828,8 +828,8 @@ disqus:
 # Based on GitHub Issues
 # See: https://github.com/gitalk/gitalk#options
 gitalk:
-  clientID: Ov23lipmhglU4iTw7xtc
-  clientSecret: 7515c04c2876cdf82c4b81fce6b10f6b62ece95e
+  clientID: __GITALK_CLIENT_ID__
+  clientSecret: __GITALK_CLIENT_SECRET__
   repo: SchrodingerFish/gitalk-comments
   owner: SchrodingerFish
   admin: ['SchrodingerFish']
@@ -887,8 +887,8 @@ waline:
 # Based on third-party service, insufficient support for regions outside China
 # http://changyan.kuaizhan.com
 changyan:
-  appid: 'cyxKSAlb8'
-  appkey: '1edde57f13dd155fbff28430725f313d'
+  appid: '__CHANGYAN_APPID__'
+  appkey: '__CHANGYAN_APPKEY__'
 
 # 来必力 Livere
 # 基于第三方的服务

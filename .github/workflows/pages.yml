@@ -31,7 +31,12 @@ jobs:
             echo "Cleared ./public directory."
       - name: Install Dependencies
         run:  npm install
-        #run: npm install hexo-renderer-pug hexo-renderer-stylus --save && npm install
+      - name: Inject Secrets
+        run: |
+          sed -i "s|__GITALK_CLIENT_ID__|${{ secrets.GITALK_CLIENT_ID }}|g" _config.fluid.yml
+          sed -i "s|__GITALK_CLIENT_SECRET__|${{ secrets.GITALK_CLIENT_SECRET }}|g" _config.fluid.yml
+          sed -i "s|__CHANGYAN_APPID__|${{ secrets.CHANGYAN_APPID }}|g" _config.fluid.yml
+          sed -i "s|__CHANGYAN_APPKEY__|${{ secrets.CHANGYAN_APPKEY }}|g" _config.fluid.yml
       - name: Build
         run: npm run build
       - name: Upload Pages artifact
