@@ -1,5 +1,5 @@
 ---
-title: 为什么 8 bit = 1 Byte.md
+title: 为什么8 bit=1 Byte
 date: 2026-03-18 09:58:18
 categories:
   - Web
