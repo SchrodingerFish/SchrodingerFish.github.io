@@ -6,8 +6,6 @@ categories:
 tags:
   - PostgreSQL
 ---
-## 🤖 Assistant
-
 `NULLIF` 是 PostgreSQL 中一个非常实用的**空值处理函数**，用于将两个相等的值转换为 `NULL`，常用于避免除零错误、消除重复值、标准化数据等场景。
 
 ---
